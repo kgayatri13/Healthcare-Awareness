@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Care Awareness Programs and Their Impact</title>
+    <meta
+      name="description"
+      content="An educational website project about healthcare awareness programs, disease prevention, mental wellness, vaccination, hygiene, nutrition, and fitness."
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-one" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-two" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container">
+        <a class="brand" href="#home" aria-label="Health Awareness Home">
+          <span class="brand-mark">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M4 12h3l2-4 3 8 2-4h6"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+            </svg>
+          </span>
+          <span>
+            <strong>Health Awareness</strong>
+            <small>Stay informed, stay healthy</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-label="Open navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#programs">Programs</a>
+          <a href="#impact">Impact</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#bmi">BMI</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+          >
+            <span class="theme-icon theme-icon-sun">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4.25"></circle>
+                <path
+                  d="M12 2.75v2.5M12 18.75v2.5M21.25 12h-2.5M5.25 12h-2.5M18.55 5.45l-1.8 1.8M7.25 16.75l-1.8 1.8M18.55 18.55l-1.8-1.8M7.25 7.25l-1.8-1.8"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="1.8"
+                ></path>
+              </svg>
+            </span>
+            <span class="theme-icon theme-icon-moon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20.2 15.3A8.3 8.3 0 0 1 8.7 3.8a8.7 8.7 0 1 0 11.5 11.5Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Community Health Education</span>
+            <h1>Health Care Awareness Programs and Their Impact</h1>
+            <p class="hero-lead">
+              Spreading awareness for healthier communities through prevention,
+              education, support systems, and everyday wellness habits that
+              protect lives.
+            </p>
+            <p class="typing-line">
+              Building stronger communities through <span id="typedText"></span
+              ><span class="typing-cursor"></span>
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#about">Learn More</a>
+              <a class="btn btn-secondary" href="#programs">Explore Programs</a>
+            </div>
+            <div class="hero-pill-row">
+              <span class="hero-pill">Public Health</span>
+              <span class="hero-pill">Disease Prevention</span>
+              <span class="hero-pill">Mental Wellness</span>
+              <span class="hero-pill">Healthy Lifestyle</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-1">
+            <article class="hero-panel glass-card">
+              <div class="hero-image-wrap">
+                <img
+                  src="images/health1.jpg"
+                  alt="Healthcare awareness visual showing vaccination and community care"
+                />
+              </div>
+              <div class="hero-panel-content">
+                <div class="hero-stat">
+                  <strong>6+</strong>
+                  <span>Core awareness programs covered</span>
+                </div>
+                <div class="hero-stat">
+                  <strong>5</strong>
+                  <span>Major health impact indicators</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="floating-card floating-card-one">
+              <span class="floating-label">Vaccination</span>
+              <strong>Community protection starts with awareness</strong>
+            </article>
+
+            <article class="floating-card floating-card-two">
+              <span class="floating-label">Wellness Tip</span>
+              <strong>Small healthy habits create long-term impact</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">About The Initiative</span>
+            <h2>Why healthcare awareness programs matter</h2>
+            <p>
+              Healthcare awareness programs educate people about prevention,
+              early diagnosis, nutrition, hygiene, mental health, and safe
+              habits so communities can make informed decisions and live
+              healthier lives.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-main glass-card reveal">
+              <h3>What are healthcare awareness programs?</h3>
+              <p>
+                They are organized campaigns, educational drives, workshops, and
+                public initiatives designed to improve health knowledge and
+                encourage responsible behavior. These programs may be led by
+                hospitals, governments, schools, NGOs, or local community
+                groups.
+              </p>
+              <p>
+                Their goal is not only to treat illness, but also to prevent
+                health problems before they spread, reduce fear and
+                misinformation, and build a culture of regular check-ups,
+                vaccination, clean surroundings, and mental well-being.
+              </p>
+            </article>
+
+            <div class="about-cards">
+              <article class="info-card reveal delay-1">
+                <span class="icon-badge">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 3 4.5 6v5.25c0 5 3.2 8.9 7.5 9.75 4.3-.85 7.5-4.75 7.5-9.75V6L12 3Z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                    ></path>
+                    <path
+                      d="M9 12.25 11 14.25 15.25 10"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                    ></path>
+                  </svg>
+                </span>
+                <h3>Disease Prevention</h3>
+                <p>
+                  Awareness helps people reduce risk through timely action,
+                  clean habits, and preventive care.
+                </p>
+              </article>
+
+              <article class="info-card reveal delay-2">
+                <span class="icon-badge">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 20s-7-4.35-7-10a4 4 0 0 1 7-2.4A4 4 0 0 1 19 10c0 5.65-7 10-7 10Z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                    ></path>
+                  </svg>
+                </span>
+                <h3>Community Well-Being</h3>
+                <p>
+                  Better knowledge improves confidence, reduces panic, and
+                  creates supportive local networks.
+                </p>
+              </article>
+
+              <article class="info-card reveal delay-3">
+                <span class="icon-badge">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 4.75a7.25 7.25 0 1 0 7.25 7.25"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-width="1.8"
+                    ></path>
+                    <path
+                      d="M12 8.75V12l2.75 1.75"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                    ></path>
+                  </svg>
+                </span>
+                <h3>Long-Term Benefits</h3>
+                <p>
+                  Healthy habits learned today reduce future health costs and
+                  strengthen public health systems.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section programs-section" id="programs">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Awareness Programs</span>
+            <h2>Educational programs that build healthier communities</h2>
+            <p>
+              Each program below supports a different part of public health and
+              encourages people to act early and responsibly.
+            </p>
+          </div>
+
+          <div class="programs-grid">
+            <article class="program-card reveal">
+              <span class="card-icon sky">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7.5 5.5 11 9m0 0 2.5-2.5M11 9l2.5 2.5M16.25 14.75l-7-7m7 7L14 17m2.25-2.25L18.5 12.5M5 19l2.25-2.25"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  ></path>
+                </svg>
+              </span>
+              <h3>Vaccination Awareness</h3>
+              <p>
+                Promotes knowledge about vaccines, immunity, booster schedules,
+                and protection against infectious diseases.
+              </p>
+            </article>
+
+            <article class="program-card reveal delay-1">
+              <span class="card-icon lilac">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 20s-6.75-4.2-6.75-9.25A3.75 3.75 0 0 1 12 8.2a3.75 3.75 0 0 1 6.75 2.55C18.75 15.8 12 20 12 20Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  ></path>
+                </svg>
+              </span>
+              <h3>Mental Health Awareness</h3>
+              <p>
+                Encourages emotional well-being, stress management, counseling
+                support, and breaking stigma around mental illness.
+              </p>
+            </article>
+
+            <article class="program-card reveal delay-2">
+              <span class="card-icon mint">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 20c-4.2 0-6.75-2.6-6.75-6.25A5.75 5.75 0 0 1 11 8h1a4.75 4.75 0 0 0 4.75-4.75V4A8.75 8.75 0 0 1 20 10.75C20 16.2 16.3 20 12 20Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  ></path>
+                </svg>
+              </span>
+              <h3>Nutrition and Healthy Food</h3>
+              <p>
+                Teaches the value of balanced diets, vitamins, hydration, and
+                safe food choices for every age group.
+              </p>
+            </article>
+
+            <article class="program-card reveal">
+              <span class="card-icon blue">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7.5 18.25c1.25-2.9 2.6-4.85 4.1-5.85m4.9 5.85c-1.25-2.9-2.6-4.85-4.1-5.85M9 7.75 8 4.75m7 3L16 4.75M5.25 12.25h13.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  ></path>
+                </svg>
+              </span>
+              <h3>Fitness and Exercise</h3>
+              <p>
+                Inspires daily movement, strength, flexibility, and active
+                routines to prevent lifestyle diseases.
+              </p>
+            </article>
+
+            <article class="program-card reveal delay-1">
+              <span class="card-icon teal">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7.5 12.25h9m-6-3h3m-7.5 10h12A2.25 2.25 0 0 0 20.25 17V7A2.25 2.25 0 0 0 18 4.75H6A2.25 2.25 0 0 0 3.75 7v10A2.25 2.25 0 0 0 6 19.25Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  ></path>
+                </svg>
+              </span>
+              <h3>Hygiene and Sanitation</h3>
+              <p>
+                Builds awareness about handwashing, clean water, sanitation
+                facilities, and hygienic daily practices.
+              </p>
+            </article>
+
+            <article class="program-card reveal delay-2">
+              <span class="card-icon coral">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M8.5 8.75a3.5 3.5 0 1 1 7 0c0 1.8-1.3 3.25-3 3.55v2.2m-3.25 4.75h5.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  ></path>
+                  <circle cx="12" cy="18.75" r="1" fill="currentColor"></circle>
+                </svg>
+              </span>
+              <h3>Women and Child Health</h3>
+              <p>
+                Highlights maternal care, child nutrition, immunization,
+                menstrual hygiene, and regular health checkups.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section impact-section" id="impact">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Impact</span>
+            <h2>Positive outcomes of healthcare awareness programs</h2>
+            <p>
+              Awareness turns information into action, improving both personal
+              habits and overall community health outcomes.
+            </p>
+          </div>
+
+          <div class="impact-layout">
+            <div class="impact-stats">
+              <article class="stat-card reveal">
+                <span class="stat-label">Reduced Diseases</span>
+                <strong class="counter" data-target="78">0</strong>
+                <small>% awareness-driven prevention potential</small>
+              </article>
+
+              <article class="stat-card reveal delay-1">
+                <span class="stat-label">Better Hygiene Habits</span>
+                <strong class="counter" data-target="86">0</strong>
+                <small>% improvement through regular education</small>
+              </article>
+
+              <article class="stat-card reveal delay-2">
+                <span class="stat-label">Vaccination Uptake</span>
+                <strong class="counter" data-target="91">0</strong>
+                <small>% stronger participation in awareness zones</small>
+              </article>
+
+              <article class="stat-card reveal">
+                <span class="stat-label">Mental Health Support</span>
+                <strong class="counter" data-target="69">0</strong>
+                <small>% more willingness to seek help</small>
+              </article>
+
+              <article class="stat-card reveal delay-1">
+                <span class="stat-label">Healthy Lifestyle Adoption</span>
+                <strong class="counter" data-target="84">0</strong>
+                <small>% rise in daily wellness choices</small>
+              </article>
+            </div>
+
+            <article class="progress-panel glass-card reveal delay-2">
+              <h3>Awareness performance indicators</h3>
+              <div class="progress-item">
+                <div class="progress-head">
+                  <span>Community education reach</span>
+                  <strong>92%</strong>
+                </div>
+                <div class="progress-track">
+                  <span class="progress-bar" data-progress="92"></span>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-head">
+                  <span>Preventive habit adoption</span>
+                  <strong>84%</strong>
+                </div>
+                <div class="progress-track">
+                  <span class="progress-bar" data-progress="84"></span>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-head">
+                  <span>Nutrition literacy</span>
+                  <strong>76%</strong>
+                </div>
+                <div class="progress-track">
+                  <span class="progress-bar" data-progress="76"></span>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-head">
+                  <span>Mental health openness</span>
+                  <strong>71%</strong>
+                </div>
+                <div class="progress-track">
+                  <span class="progress-bar" data-progress="71"></span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Image Gallery</span>
+            <h2>Visual moments from health awareness campaigns</h2>
+            <p>
+              The gallery highlights community care, healthy food choices,
+              preventive outreach, and supportive health conversations.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card gallery-tall reveal">
+              <img
+                src="images/health1.jpg"
+                alt="Vaccination and healthcare awareness campaign visual"
+              />
+              <figcaption>Immunization and public care</figcaption>
+            </figure>
+            <figure class="gallery-card reveal delay-1">
+              <img
+                src="images/health2.jpg"
+                alt="Healthy nutrition and balanced meal awareness visual"
+              />
+              <figcaption>Nutrition and healthy food education</figcaption>
+            </figure>
+            <figure class="gallery-card reveal delay-2">
+              <img
+                src="images/health3.jpg"
+                alt="Mental wellness and community support visual"
+              />
+              <figcaption>Mental well-being and counseling support</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="images/health2.jpg"
+                alt="Fresh food and hydration awareness visual"
+              />
+              <figcaption>Balanced diets for stronger immunity</figcaption>
+            </figure>
+            <figure class="gallery-card reveal delay-1">
+              <img
+                src="images/health3.jpg"
+                alt="Wellness discussion and healthcare consultation visual"
+              />
+              <figcaption>Open discussions improve health outcomes</figcaption>
+            </figure>
+            <figure class="gallery-card gallery-wide reveal delay-2">
+              <img
+                src="images/health1.jpg"
+                alt="Healthcare awareness program community outreach visual"
+              />
+              <figcaption>
+                Awareness programs connect education with action
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section video-section" id="video">
+        <div class="container video-layout">
+          <div class="section-heading left-align reveal">
+            <span class="eyebrow">Video Awareness</span>
+            <h2>Watch a health awareness presentation</h2>
+            <p>
+              This section is ready for your local awareness video. Add your
+              project video to
+              <code>videos/awareness.mp4</code> and the player will use it
+              automatically.
+            </p>
+            <ul class="video-points">
+              <li>Promotes visual learning and stronger engagement</li>
+              <li>Useful for classroom demonstrations and mini projects</li>
+              <li>
+                Supports awareness around prevention, hygiene, and healthy
+                routines
+              </li>
+            </ul>
+          </div>
+
+          <div class="video-card glass-card reveal delay-1">
+            <div class="video-frame">
+              <video
+                id="awarenessVideo"
+                controls
+                preload="metadata"
+                poster="images/health2.jpg"
+                aria-label="Healthcare awareness video player"
+              >
+                Your browser does not support HTML5 video playback.
+              </video>
+              <button class="video-overlay-btn" id="videoToggle" type="button">
+                Add Local Video
+              </button>
+            </div>
+            <p class="video-note" id="videoNote">
+              Preview poster is shown until a local MP4 file is available.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bmi-section" id="bmi">
+        <div class="container bmi-layout">
+          <article class="bmi-copy glass-card reveal">
+            <span class="eyebrow">BMI Calculator</span>
+            <h2>Check your body mass index</h2>
+            <p>
+              BMI is a simple indicator that compares your weight with your
+              height. It is often used in awareness programs to encourage
+              healthy weight management and better lifestyle choices.
+            </p>
+            <div class="bmi-list">
+              <span>Underweight: below 18.5</span>
+              <span>Healthy: 18.5 to 24.9</span>
+              <span>Overweight: 25 to 29.9</span>
+              <span>Obese: 30 or above</span>
+            </div>
+          </article>
+
+          <article class="bmi-card reveal delay-1">
+            <h3>Calculate BMI</h3>
+            <form id="bmiForm" class="bmi-form">
+              <label>
+                Weight (kg)
+                <input
+                  id="weight"
+                  name="weight"
+                  type="number"
+                  min="1"
+                  step="0.1"
+                  placeholder="Enter weight in kg"
+                  required
+                />
+              </label>
+              <label>
+                Height (cm)
+                <input
+                  id="height"
+                  name="height"
+                  type="number"
+                  min="1"
+                  step="0.1"
+                  placeholder="Enter height in cm"
+                  required
+                />
+              </label>
+              <button class="btn btn-primary" type="submit">
+                Calculate BMI
+              </button>
+            </form>
+            <div class="bmi-result" id="bmiResult">
+              <strong>Your result will appear here.</strong>
+              <p>Enter your values to see the BMI score and health category.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section tips-section" id="tips">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Health Tips</span>
+            <h2>Daily habits that support long-term wellness</h2>
+            <p>
+              Awareness is most powerful when it becomes part of daily routine.
+              These simple habits help improve overall health.
+            </p>
+          </div>
+
+          <div class="tips-grid">
+            <article class="tip-card reveal">
+              <h3>Drink More Water</h3>
+              <p>
+                Hydration supports digestion, circulation, temperature control,
+                and mental focus throughout the day.
+              </p>
+            </article>
+            <article class="tip-card reveal delay-1">
+              <h3>Eat Healthy Food</h3>
+              <p>
+                Choose fruits, vegetables, whole grains, and protein-rich meals
+                to nourish the body properly.
+              </p>
+            </article>
+            <article class="tip-card reveal delay-2">
+              <h3>Exercise Daily</h3>
+              <p>
+                Even a short walk, stretching session, or yoga routine
+                strengthens the body and improves mood.
+              </p>
+            </article>
+            <article class="tip-card reveal">
+              <h3>Sleep Properly</h3>
+              <p>
+                Good sleep helps the immune system recover, improves memory, and
+                supports emotional balance.
+              </p>
+            </article>
+            <article class="tip-card reveal delay-1">
+              <h3>Avoid Junk Food</h3>
+              <p>
+                Reducing sugary and highly processed food helps prevent obesity,
+                diabetes, and energy crashes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-layout">
+          <article class="contact-copy reveal">
+            <span class="eyebrow">Contact</span>
+            <h2>Share your message or project feedback</h2>
+            <p>
+              Use the form to connect with the project team, ask questions, or
+              share ideas about how healthcare awareness can create healthier
+              and safer communities.
+            </p>
+            <div class="contact-highlights">
+              <span>Awareness drives change</span>
+              <span>Education saves lives</span>
+              <span>Healthy communities grow together</span>
+            </div>
+          </article>
+
+          <article class="contact-card glass-card reveal delay-1">
+            <form id="contactForm" novalidate>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Enter your full name"
+                  required
+                />
+                <small class="error-text"></small>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+                <small class="error-text"></small>
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+                <small class="error-text"></small>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Send Message
+              </button>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4 12h3l2-4 3 8 2-4h6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Health Awareness</strong>
+              <small>Health Care Awareness Programs and Their Impact</small>
+            </span>
+          </a>
+          <p class="footer-copy">
+            Educational mini project focused on public health, healthy lifestyle
+            education, and social awareness.
+          </p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#impact">Impact</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M13.25 20v-6h2.25l.5-2.75h-2.75V9.9c0-.8.25-1.35 1.4-1.35h1.5V6.05A18 18 0 0 0 14 5.9c-2.15 0-3.65 1.3-3.65 3.85v1.5H8V14h2.35v6h2.9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect
+                  x="4.25"
+                  y="4.25"
+                  width="15.5"
+                  height="15.5"
+                  rx="4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                ></rect>
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                ></circle>
+                <circle cx="17.2" cy="6.9" r="1" fill="currentColor"></circle>
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M19.4 7.35c-.25-.95-1-1.7-1.95-1.95C15.9 5 12 5 12 5s-3.9 0-5.45.4a2.76 2.76 0 0 0-1.95 1.95C4.2 8.9 4.2 12 4.2 12s0 3.1.4 4.65c.25.95 1 1.7 1.95 1.95C8.1 19 12 19 12 19s3.9 0 5.45-.4a2.76 2.76 0 0 0 1.95-1.95c.4-1.55.4-4.65.4-4.65s0-3.1-.4-4.65ZM10.5 15.05v-6.1L15.75 12 10.5 15.05Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.2 8.6A1.7 1.7 0 1 0 6.2 5.2a1.7 1.7 0 0 0 0 3.4ZM4.8 9.85H7.6V19H4.8V9.85Zm4.8 0h2.7v1.25h.05c.4-.7 1.35-1.55 2.8-1.55 3 0 3.55 1.95 3.55 4.5V19H15.9v-4.15c0-1-.05-2.25-1.4-2.25-1.4 0-1.6 1.1-1.6 2.2V19H9.6V9.85Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>
+            &copy; <span id="year"></span> Health Care Awareness Programs and
+            Their Impact. All rights reserved.
+          </p>
+          <a class="back-to-top" href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      Message sent successfully. Thank you for supporting health awareness.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
