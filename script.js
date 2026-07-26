@@ -205,14 +205,6 @@
         <p>${p.desc}</p>
         <div class="program-meta">
           <span class="likes"><i class="fa-regular fa-heart"></i> <span class="lcount">${p.likes}</span></span>
-    <div class="share-icons">
-  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-  <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-  <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-</div>
-</div>
-<a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
-</div>`;
     programGrid.appendChild(card);    
   });
   programGrid.addEventListener("click", (e) => {
