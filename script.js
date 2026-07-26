@@ -212,7 +212,7 @@
 </div>
 </div>
 <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
-</div>';
+</div>`;
     programGrid.appendChild(card);    
   });
   programGrid.addEventListener("click", (e) => {
