@@ -199,7 +199,7 @@
     const card = document.createElement("article");
     card.className = "program-card reveal";
     card.innerHTML = `
-      <div class="program-img"><img src="${p.img}" alt="${p.title}" loading="lazy"/></div>
+    <div class="program-img"><img src="${p.img}" alt="${p.title}" loading="lazy"/></div>
       <div class="program-body">
         <h3>${p.title}</h3>
         <p>${p.desc}</p>
