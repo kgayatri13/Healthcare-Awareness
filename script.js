@@ -205,9 +205,6 @@
         <p>${p.desc}</p>
         <div class="program-meta">
           <span class="likes"><i class="fa-regular fa-heart"></i> <span class="lcount">${p.likes}</span></span>
-        </div>
-        <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
-      </div>`;
     programGrid.appendChild(card);
   });
   programGrid.addEventListener("click", (e) => {
