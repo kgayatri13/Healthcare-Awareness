@@ -1,4 +1,4 @@
-   /* ============================================
+ /* ============================================
    HealthCare Awareness — JavaScript
    Vanilla JS only. All interactions wired here.
 ============================================ */
@@ -192,7 +192,8 @@
     updateSlider();
   }, 5000);
 
-  /* -------- PROGRAMS -------- */
+ 
+   /* -------- PROGRAMS -------- */
   const programGrid = $("#programGrid");
   programs.forEach((p) => {
     const card = document.createElement("article");
